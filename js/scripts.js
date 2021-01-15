@@ -7,6 +7,9 @@ $(document).ready(function() {
     const answer2 = $("input:radio[name=question2]:checked").val();
     const answer3 = $("input:radio[name=question3]:checked").val();
     const answer4 = $("input:radio[name=question4]:checked").val();
-    console.log(answer1,answer2)
+    
+    $(".user_name").text(name);
+
+    
   }); 
 });
