@@ -1,5 +1,8 @@
 #suggestion1, #suggestion2, #suggestion3 {
   display: none;
+  font-family: 'Franklin Gothic Medium';
+  font-size: x-large;
+  background: rgb(207, 201, 201); 
 }
 
 body {
@@ -19,5 +22,12 @@ h1 {
 #suggestion-form {
   font-weight: bold;
   font-size: large;
-  font-style: ;
+}
+
+.user_name {
+  font-style: italic;
+}
+
+div > p {
+  padding: 2%;
 }
