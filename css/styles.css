@@ -31,3 +31,8 @@ h1 {
 div > p {
   padding: 2%;
 }
+
+.text-center {
+ font-size: medium;
+ 
+}
