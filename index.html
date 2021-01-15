@@ -12,56 +12,58 @@
     <h1> Programming Language Suggester </h1>
     <form id="suggester-form">
       <div class="form-group">
-        <label for="name"> Provide your name </label>
+        <label for="name"> Please provide your name </label>
         <input type="text" id="name" class="form-control" >
       </div>
 
       <div class="form-group">
-        <label for="age"> Your age </label>
+        <label for="age"> Please provide your age </label>
         <input type="number" id="age" class="form-control">
       </div>
 
       <div class="radio">
         <label for="question-1"> Do you like play games?
-        <input type="radio" name="question1_option-1" value="answer" checked>yes
+        <input type="radio" name="question1_option-1" value="answer" checked> yes
         <input type="radio" name="question1_option-2" value="answer">
         no
         </label>
       </div>
 
-      <div class="row">
-        <label for="question-1"> Do you like play games? </label>
-        <input type="text" id="question-1">
+      <div class="radio">
+        <label for="question-2"> Do you like design?
+        <input type="radio" name="question2_option-1" value="answer" checked> yes
+        <input type="radio" name="question2_option-2" value="answer">
+        no
+        </label>
       </div>
 
-      <div class="row">
-        <label for="question-2">End Time: </label>
-        <input type="text" id="question-2">
+      <div class="radio">
+        <label for="question-3"> Do you like robotics?
+        <input type="radio" name="question3_option-1" value="answer" checked> yes
+        <input type="radio" name="question3_option-2" value="answer">
+        no
+        </label>
       </div>
 
-      <div class="row">
-        <label for="question-3">End Time: </label>
-        <input type="text" id="question-3">
-      </div>
-
-      <div class="row">
-        <label for="question-4">End Time: </label>
-        <input type="text" id="question-4">
-      </div>
-
-      <div class="row">
-        <label for="question-5">End Time: </label>
-        <input type="text" id="question-5">
+      <div class="radio">
+        <label for="question-4"> Do you have any experience in coding?
+        <input type="radio" name="question4_option-1" value="answer" checked> yes
+        <input type="radio" name="question4_option-2" value="answer">
+        no
+        </label>
       </div>
       <br/>
-      <div class="row">
-        <button type="submit" value="Submit">Submit </button>
-      </div>
+      <button type="submit" class="btn-success"> Submit </button>
+     </form>
+     <br/>
 
-    </form>
+     <div id="suggestion">
+      <p>
+      Dear <span class=""></span>, <br>
+      fjfjfjfjfjfjfjj
+      </p>
+    </div>
   </div>
-
-  <div id="suggestion"></div>
 
 </body>
 </html>
