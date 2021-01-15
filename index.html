@@ -9,18 +9,24 @@
 </head>
 <body>
   <div class="container">
-    <div class="row">
-      <h1> Programming Language Suggester </h1>
-    </div>
+    <h1> Programming Language Suggester </h1>
     <form id="suggester-form">
       <div class="form-group">
         <label for="name"> Provide your name </label>
-        <input type="text" id="name">
+        <input type="text" id="name" class="form-control" >
       </div>
 
       <div class="form-group">
         <label for="age"> Your age </label>
-        <input type="number" id="age">
+        <input type="number" id="age" class="form-control">
+      </div>
+
+      <div class="radio">
+        <label for="question-1"> Do you like play games?
+        <input type="radio" name="question1_option-1" value="answer" checked>yes
+        <input type="radio" name="question1_option-2" value="answer">
+        no
+        </label>
       </div>
 
       <div class="row">
