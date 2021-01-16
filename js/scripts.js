@@ -9,11 +9,11 @@ $(document).ready(function() {
     const answer4 = $("input:radio[name=question4]:checked").val();
 
     if (age > 10 && answer2 === "yes") {
-      $("#suggestion1").show();
+      $("#suggestion1").slideDown();
     } else if (answer1 === "yes" || answer2 === "yes" ){
-      $("#suggestion2").show();
+      $("#suggestion2").slideDown();
     } else {
-      $("#suggestion3").show();
+      $("#suggestion3").slideDown();
     };
 
     $(".user_name").text(name);
