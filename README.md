@@ -1,5 +1,6 @@
 # **Programming Language Suggester **
 By Olha Hizhytska
+![](images/screenshot_suggester.png)
 
 A simple JavaScript interface to obtain a suggestion regarding what first programming language should  to choose.
 
