@@ -1,4 +1,4 @@
-# **Programming Language Suggester **
+# **Programming Language Suggester**
 By Olha Hizhytska
 ![](images/screenshot_suggester.png)
 
