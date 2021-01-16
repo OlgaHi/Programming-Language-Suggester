@@ -1,25 +1,31 @@
-# ****
+# **Programming Language Suggester **
 By Olha Hizhytska
 
-A brief description about me and my projects
+A simple JavaScript interface to obtain a suggestion regarding what first programming language should  to choose.
 
 ## Technologies Used:
 
+* JavaScript
 * HTML
 * CSS
+* jQuery
+* Bootstrap
+
 
 ## Description
 
+The Programming Language Suggester webpage is for people who want to start learning programming but do not know from what language to start. This application asks users a series of questions about themselves and provides a language suggestion to learn based on their answers.
  
 
 ## Setup
 
 - Clone this repository to your desktop, using next command:
 
-  git clone 
+  git clone https://github.com/OlgaHi/Programming-Language-Suggester.git
+
 - Navigate to the top level of the directory.
 
-  cd Portfolio
+  cd Programming-Language-Suggester
 
 - Open index.html in your browser.
 
