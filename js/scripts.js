@@ -7,12 +7,16 @@ $(document).ready(function() {
     const answer2 = $("input:radio[name=question2]:checked").val();
     const answer3 = $("input:radio[name=question3]:checked").val();
     const answer4 = $("input:radio[name=question4]:checked").val();
-
-    if (age > 10 && answer2 === "yes") {
+    
+    if (name.length === 0) {
+      alert('Please provide your name.');
+    } else if (!age > 0) {
+      alert('Please provide your age.');
+    } else if (answer1 === "yes") {
       $("#suggestion1").slideDown();
-    } else if (answer1 === "yes" || answer2 === "yes" ){
+    } else if (answer3 === "yes" && answer4 === "yes") {
       $("#suggestion2").slideDown();
-    } else {
+    } else { 
       $("#suggestion3").slideDown();
     };
 
